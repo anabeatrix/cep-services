@@ -1,7 +1,7 @@
-package org.anabeatrix.model;
+package com.anabeatrix.cepservice;
 
-import org.anabeatrix.cepservice.CepService;
-import org.anabeatrix.cepservice.Endereco;
+import com.anabeatrix.cepservice.CepService;
+import com.anabeatrix.model.Endereco;
 
 import javax.ws.rs.client.Client;
 import javax.ws.rs.client.ClientBuilder;

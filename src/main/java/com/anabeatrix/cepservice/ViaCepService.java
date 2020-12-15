@@ -1,5 +1,8 @@
-package org.anabeatrix.model;
+package com.anabeatrix.cepservice;
 
+import javax.enterprise.context.Dependent;
+
+@Dependent
 public class ViaCepService extends AbstractCepService {
     public ViaCepService(String dominio) {
         super(dominio);

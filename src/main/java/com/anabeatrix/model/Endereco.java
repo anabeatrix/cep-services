@@ -1,4 +1,4 @@
-package org.anabeatrix.cepservice;
+package com.anabeatrix.model;
 
 public class Endereco {
     private String logradouro;
