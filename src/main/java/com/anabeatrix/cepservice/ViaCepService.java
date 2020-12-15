@@ -4,8 +4,8 @@ import javax.enterprise.context.Dependent;
 
 @Dependent
 public class ViaCepService extends AbstractCepService {
-    public ViaCepService(String dominio) {
-        super(dominio);
+    public ViaCepService() {
+        super("https://viacep.com.br");
     }
 
     @Override
